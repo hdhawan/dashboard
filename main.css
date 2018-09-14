@@ -1,0 +1,51 @@
+body {
+    font-family: 'Overpass Mono', monospace;
+}
+
+.navbar {
+    padding: 1.5em;
+    margin-bottom: 1em;
+}
+
+.navbar-color {
+    background-color: #333 !important;
+}
+
+.nav-link {
+    color: #F4F9FE;
+}
+
+.nav-link:hover {
+    color: #86B3D3;
+}
+
+.custom-bg, h2 {
+    color: #333;
+    background-color: #D7E7EA;
+    padding: 0.2em;
+    border-radius: 0.15em;
+}
+
+.img-sm {
+    height: 10em !important;
+    width: 20em !important;
+    padding: 0 !important;
+}
+
+.table-top {
+    margin-top: 3em;
+}
+
+.thead-custom {
+    color: #F4F9FE;
+    background-color: #333;
+}
+
+@media (max-width: 450px) {
+    .custom-bg, h2 {
+    color: #222;
+    background-color: #FB5;
+    padding: 2em;
+    border-radius: 0.15em;
+    }
+}
