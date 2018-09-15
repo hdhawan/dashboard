@@ -1,5 +1,27 @@
 body {
     font-family: 'Overpass Mono', monospace;
+    background-color: #DDD;
+}
+
+.bg-image {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("img/old-world-map.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+hr {
+    height: 6px;
+    background: url('img/slash.png');
+    border: 0;
+}
+
+.big-container {
+    padding: 1em 4em 0 4em;
 }
 
 .navbar {
@@ -19,17 +41,19 @@ body {
     color: #86B3D3;
 }
 
-.custom-bg, h2 {
+.nav-title {
     color: #333;
     background-color: #D7E7EA;
     padding: 0.2em;
-    border-radius: 0.15em;
+    border-radius: 0.1em;
 }
 
-.img-sm {
-    height: 10em !important;
-    width: 20em !important;
-    padding: 0 !important;
+img {
+    margin-bottom: 0.5em;
+}
+
+.selection {
+    border: 0.2em dashed #777;
 }
 
 .table-top {
@@ -41,11 +65,11 @@ body {
     background-color: #333;
 }
 
-@media (max-width: 450px) {
+/* @media (max-width: 450px) {
     .custom-bg, h2 {
     color: #222;
     background-color: #FB5;
     padding: 2em;
     border-radius: 0.15em;
-    }
-}
+    } */
+/* } */
